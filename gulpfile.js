@@ -30,7 +30,6 @@ gulp.task('sass', function () {
 // Watch
 gulp.task('watch', function () {
     gulp.watch(paths.sass.src, ['sass']);
-    gulp.src('./css/style.css').pipe(gulp.dest('./'));
 });
 
 // Default
