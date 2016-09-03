@@ -3,6 +3,14 @@
 //@import "neat";
 //@import "neat-helpers";
 @import "mixins";
+
+body {
+	background: url("../img/main-bg-st.jpg") no-repeat center center;
+}
+.text-white {
+	color: white;
+}
+
 .entire-content {
 	@include centerXY;
 	@media screen and (max-width: 767px) {

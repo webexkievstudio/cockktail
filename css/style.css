@@ -5891,6 +5891,16 @@ fieldset[disabled] .navbar-inverse .btn-link:focus
     }
 }
 
+body
+{
+    background: url('../img/main-bg-st.jpg') no-repeat center center;
+}
+
+.text-white
+{
+    color: white;
+}
+
 .entire-content
 {
     position: absolute;
