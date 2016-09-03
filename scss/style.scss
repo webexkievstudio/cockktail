@@ -1,0 +1,41 @@
+@import "bootstrap";
+//@import "bourbon";
+//@import "neat";
+//@import "neat-helpers";
+@import "mixins";
+.entire-content {
+	@include centerXY;
+	@media screen and (max-width: 767px) {
+		position: static;
+		transform: translate(0);
+		margin-top: 70px;
+	}
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 0;
+	&-list {
+		margin-top: 10px;
+		padding-left: 0;
+	}
+	&-item {
+		position: relative;
+		display: inline-block;
+		list-style: none;
+		padding-right: 15px;
+		&:before {
+			content: "";
+			position: absolute;
+			right: 7.5px;
+			height: 100%;
+			border-right: 1px solid black;
+		}
+	}
+}
+@media screen and (max-width: 767px) {
+	.mb-15-xs {
+		margin-bottom: 15px !important;
+	}
+}

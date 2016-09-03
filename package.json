@@ -1,0 +1,32 @@
+{
+  "name": "cocktail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Vitaly Besk",
+  "license": "ISC",
+  "devDependencies": {
+    "bourbon": "^4.2.7",
+    "bourbon-neat": "^1.7.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-css-url-rebase": "^0.2.2",
+    "gulp-csscomb": "^3.0.7",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-watch": "^4.3.5",
+    "node-neat": "^1.7.2",
+    "node-refills": "^1.0.1"
+  },
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "font-awesome": "^4.6.3",
+    "bootstrap-sass": "^3.3.6",
+    "jquery-mask-plugin": "^1.14.0"
+  }
+}
