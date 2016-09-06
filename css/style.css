@@ -29,7 +29,10 @@
 
     width: 100%;
     min-height: 100%;
+}
 
+.bg-image
+{
     background: url(../img/main-bg-st.jpg) no-repeat center;
     background-size: cover;
 }
@@ -87,7 +90,7 @@
 .footer-item:before
 {
     position: absolute;
-    right: 7.5px;
+    right: 7px;
 
     height: 100%;
 

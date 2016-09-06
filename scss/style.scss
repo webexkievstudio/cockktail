@@ -9,6 +9,8 @@
 	position: absolute;
 	width: 100%;
 	min-height: 100%;
+}
+.bg-image {
 	background: url(../img/main-bg-st.jpg) no-repeat center;
 	background-size: cover;
 }
@@ -40,7 +42,7 @@ margin-bottom: 30px;
 		&:before {
 			content: "";
 			position: absolute;
-			right: 7.5px;
+			right: 7px;
 			height: 100%;
 			border-right: 1px solid black;
 		}
