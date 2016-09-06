@@ -98,3 +98,8 @@
 
     border-right: 1px solid black;
 }
+
+.input-group-lg .input-group-addon
+{
+    min-width: 60px;
+}
