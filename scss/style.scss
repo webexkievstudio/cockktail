@@ -5,6 +5,12 @@
 @import "mixins";
 @import "utilities";
 @import "typography";
+
+body {
+	min-height: 2000px;
+	padding-top: 70px;
+}
+
 .bg-wrapper {
 	position: absolute;
 	width: 100%;

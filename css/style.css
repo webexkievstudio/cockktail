@@ -23,6 +23,12 @@
     color: white !important;
 }
 
+body
+{
+    min-height: 2000px;
+    padding-top: 70px;
+}
+
 .bg-wrapper
 {
     position: absolute;
