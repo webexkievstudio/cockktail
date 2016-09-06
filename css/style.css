@@ -23,12 +23,6 @@
     color: white !important;
 }
 
-body
-{
-    min-height: 2000px;
-    padding-top: 70px;
-}
-
 .bg-wrapper
 {
     position: absolute;
@@ -108,4 +102,9 @@ body
 .input-group-lg .input-group-addon
 {
     min-width: 60px;
+}
+
+.static-content
+{
+    margin-top: 70px;
 }
